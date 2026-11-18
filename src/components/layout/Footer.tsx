@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import Icon from "@/components/ui/Icon";
 import LocalTime from "@/components/ui/LocalTime";
 import { site } from "@/config/site";
@@ -72,12 +70,12 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <Link
-                    href="/#work"
+                  <a
+                    href="#work"
                     className="font-mono text-[0.68rem] uppercase tracking-[0.08em] text-muted transition-colors hover:text-accent"
                   >
                     Projects
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

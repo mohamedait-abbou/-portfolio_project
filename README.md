@@ -30,6 +30,8 @@ BASE_PATH=/-portfolio_project npm run build
 
 The build writes the static site to `out/`. GitHub Pages deployment is handled by `.github/workflows/deploy.yml` with `BASE_PATH=/-portfolio_project`.
 
+**New to Git and GitHub?** Follow [DEPLOYMENT.md](./DEPLOYMENT.md) — it explains every command, the workflow file, Pages settings, verification and common errors from scratch.
+
 ## Structure
 
 - `src/config/` — identity, SEO, base-path helpers
