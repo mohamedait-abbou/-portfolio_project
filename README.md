@@ -25,10 +25,10 @@ Open http://localhost:3000.
 ```bash
 npm run lint
 npm run build
-BASE_PATH=/portfolio_project npm run build
+BASE_PATH=/-portfolio_project npm run build
 ```
 
-The build writes the static site to `out/`. GitHub Pages deployment is handled by `.github/workflows/deploy.yml` with `BASE_PATH=/portfolio_project`.
+The build writes the static site to `out/`. GitHub Pages deployment is handled by `.github/workflows/deploy.yml` with `BASE_PATH=/-portfolio_project`.
 
 ## Structure
 
@@ -46,4 +46,4 @@ All copy is sourced from the existing repository and the owner's GitHub profile.
 
 The SEOCOM PFA internship is presented as **CRM full-stack + DevOps**: the Laravel/MySQL/Blade product work plus the Docker runtime and self-hosted GitHub Actions delivery path (Pest tests, healthchecks, migrations and release steps).
 
-Live: https://mohamedait-abbou.github.io/portfolio_project/
+Live: https://mohamedait-abbou.github.io/-portfolio_project/

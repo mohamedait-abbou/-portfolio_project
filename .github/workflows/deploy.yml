@@ -27,7 +27,7 @@ jobs:
       - run: npm run lint
       - run: npm run build
         env:
-          BASE_PATH: "/portfolio_project"
+          BASE_PATH: "/-portfolio_project"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
