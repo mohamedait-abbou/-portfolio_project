@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MA monogram">
+  <rect width="64" height="64" rx="12" fill="#0b0b0c"/>
+  <path d="M9 20V9h11M55 44v11H44" fill="none" stroke="#2e5bff" stroke-width="2"/>
+  <text x="32" y="39" fill="#f2f1ee" font-family="ui-monospace, monospace" font-size="21" letter-spacing="-1" text-anchor="middle">MA</text>
+</svg>
